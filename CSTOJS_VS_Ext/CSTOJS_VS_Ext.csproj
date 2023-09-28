@@ -61,6 +61,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CHANGELOG.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="CSTOJS_CLI\CSTOJS_CLI.deps.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -257,6 +261,10 @@
     <Content Include="CSTOJS_CLI\zh-Hant\System.CommandLine.resources.dll">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LICENSE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Resources\CSTOJS_256.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

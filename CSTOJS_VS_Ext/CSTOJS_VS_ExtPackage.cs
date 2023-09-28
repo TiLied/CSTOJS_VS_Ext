@@ -17,7 +17,7 @@ namespace CSTOJS_VS_Ext
 	expression: "CSharp",
 	termNames: new[] { "CSharp" },
 	termValues: new[] { "HierSingleSelectionName:.cs$" })]
-	[ProvideOptionPage(typeof(OptionsProvider.GeneralOptions), "CSTOJS_VS_Ext", "General", 0, 0, true, SupportsProfiles = true)]
+	[ProvideOptionPage(typeof(OptionsProvider.GeneralOptions), "CSTOJS VS Ext", "General", 0, 0, true, SupportsProfiles = true)]
 	public sealed class CSTOJS_VS_ExtPackage : ToolkitPackage
 	{
 		public static OutputWindowPane Pane;

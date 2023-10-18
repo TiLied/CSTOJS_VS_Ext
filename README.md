@@ -16,3 +16,6 @@ CLI for library: https://github.com/TiLied/CSTOJS_CLI
   
 Website/documentation: https://github.com/TiLied/CSTOJS_Pages
 - Blazor WebAssembly: https://github.com/TiLied/CSTOJS_BWA
+
+## Thanks for packages and content <3
+[Community.VisualStudio.Toolkit](https://github.com/VsixCommunity/Community.VisualStudio.Toolkit)

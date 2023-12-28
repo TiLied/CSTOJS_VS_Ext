@@ -1,4 +1,7 @@
 # Change Log
 
+## 0.0.02
+- Updated CSTOJS_CLI to [0.0.03](https://github.com/TiLied/CSTOJS_CLI/releases/tag/0.0.03).
+
 ## 0.0.01
 - Initial release.

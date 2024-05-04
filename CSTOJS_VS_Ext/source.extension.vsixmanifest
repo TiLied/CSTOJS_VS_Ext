@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" ?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CSTOJS_VS_Ext.8e348e42-b8f5-49a7-9b15-2740cb09270a" Version="0.0.02" Language="en-US" Publisher="TiLied" />
+        <Identity Id="CSTOJS_VS_Ext.8e348e42-b8f5-49a7-9b15-2740cb09270a" Version="0.0.03" Language="en-US" Publisher="TiLied" />
         <DisplayName>CSTOJS for VS</DisplayName>
         <Description xml:space="preserve">VS Extension for CSharpToJavaScript library, using CLI. </Description>
         <MoreInfo>https://github.com/TiLied/CSTOJS_VS_Ext</MoreInfo>

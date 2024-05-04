@@ -24,5 +24,30 @@ namespace CSTOJS_VS_Ext
 		[Description("Debug. When set to true prints additional info to console, cs lines to js file.")]
 		[DefaultValue(false)]
 		public bool Debug { get; set; } = false;
+
+		[Category("CSharpToJavaScript options")]
+		[DisplayName("DisableConsoleOutput")]
+		[Description("Self-explanatory, Disable Console Output.")]
+		[DefaultValue(false)]
+		public bool DisableConsoleOutput { get; set; } = false;
+
+		[Category("CSharpToJavaScript options")]
+		[DisplayName("UseVarOverLet")]
+		[Description("Self-explanatory, Use var over let.")]
+		[DefaultValue(false)]
+		public bool UseVarOverLet { get; set; } = false;
+
+		[Category("CSharpToJavaScript options")]
+		[DisplayName("KeepBraceOnTheSameLine")]
+		[Description("Keep Brace { on the same line.")]
+		[DefaultValue(false)]
+		public bool KeepBraceOnTheSameLine { get; set; } = false;
+
+		[Category("CSharpToJavaScript options")]
+		[DisplayName("NormalizeWhitespace")]
+		[Description("Self-explanatory, Normalize Whitespace.")]
+		[DefaultValue(false)]
+		public bool NormalizeWhitespace { get; set; } = false;
+
 	}
 }

@@ -13,8 +13,8 @@
     <ProjectGuid>{D0FA44EF-6AF5-4CDD-8F76-13C87CF3D410}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VSIXProjectTest</RootNamespace>
-    <AssemblyName>VSIXProjectTest</AssemblyName>
+    <RootNamespace>CSTOJS_VS_Ext</RootNamespace>
+    <AssemblyName>CSTOJS_VS_Ext</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>
@@ -266,6 +266,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Resources\ExampleGif.gif" />
     <Content Include="Resources\CSTOJS_256.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>

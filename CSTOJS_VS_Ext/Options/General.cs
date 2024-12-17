@@ -21,7 +21,7 @@ namespace CSTOJS_VS_Ext
 
 		[Category("CSharpToJavaScript options")]
 		[DisplayName("Debug")]
-		[Description("Debug. When set to true prints additional info to console, cs lines to js file and creates file Debug.txt,")]
+		[Description("Debug. When set to true prints additional info to console, cs lines to js file.")]
 		[DefaultValue(false)]
 		public bool Debug { get; set; } = false;
 	}

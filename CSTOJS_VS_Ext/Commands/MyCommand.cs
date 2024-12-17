@@ -60,6 +60,26 @@ namespace CSTOJS_VS_Ext
 				args.Add("-Debug");
 				args.Add($"true");
 			}
+			if (options.DisableConsoleOutput)
+			{
+				args.Add("-DisableConsoleOutput");
+				args.Add($"true");
+			}
+			if (options.UseVarOverLet)
+			{
+				args.Add("-UseVarOverLet");
+				args.Add($"true");
+			}
+			if (options.KeepBraceOnTheSameLine)
+			{
+				args.Add("-KeepBraceOnTheSameLine");
+				args.Add($"true");
+			}
+			if (options.NormalizeWhitespace)
+			{
+				args.Add("-NormalizeWhitespace");
+				args.Add($"true");
+			}
 
 			p.StartInfo.Arguments = string.Join(" ", args);
 

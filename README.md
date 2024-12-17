@@ -13,7 +13,9 @@ CSharpToJavaScript library: https://github.com/TiLied/CSharpToJavaScript
 - Library for generating csharp: https://github.com/TiLied/GenCSharpLib
 
 CLI for library: https://github.com/TiLied/CSTOJS_CLI
-  
+
+VS Code Extension using CLI: https://github.com/TiLied/CSTOJS_VSCode_Ext
+
 Website/documentation: https://github.com/TiLied/CSTOJS_Pages
 - Blazor WebAssembly: https://github.com/TiLied/CSTOJS_BWA
 

@@ -48,7 +48,7 @@ namespace CSTOJS_VS_Ext
 			p.StartInfo.RedirectStandardError = true;
 			p.StartInfo.CreateNoWindow = true;
 
-			if (options.PathToCSTOJS_CLI != null && options.PathToCSTOJS_CLI != "") 
+			if (options.PathToCSTOJS_CLI != null && options.PathToCSTOJS_CLI != string.Empty) 
 				p.StartInfo.FileName = options.PathToCSTOJS_CLI;
 			else
 				p.StartInfo.FileName = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\CSTOJS_CLI\\CSTOJS_CLI.exe";
@@ -79,6 +79,18 @@ namespace CSTOJS_VS_Ext
 			{
 				args.Add("-NormalizeWhitespace");
 				args.Add($"true");
+			}
+
+			if (options.UseStrictEquality)
+			{
+				args.Add("-UseStrictEquality");
+				args.Add($"true");
+			}
+
+			if (options.CustomCSNamesToJS != null && options.CustomCSNamesToJS != string.Empty)
+			{
+				args.Add("-CustomCSNamesToJS");
+				args.Add($"{options.CustomCSNamesToJS.Replace(" ","").Trim()}");
 			}
 
 			p.StartInfo.Arguments = string.Join(" ", args);

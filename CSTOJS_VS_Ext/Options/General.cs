@@ -49,5 +49,16 @@ namespace CSTOJS_VS_Ext
 		[DefaultValue(false)]
 		public bool NormalizeWhitespace { get; set; } = false;
 
+		[Category("CSharpToJavaScript options")]
+		[DisplayName("UseStrictEquality")]
+		[Description("Replace '==' with '===' and '!=' with '!=='.")]
+		[DefaultValue(false)]
+		public bool UseStrictEquality { get; set; } = false;
+
+		[Category("CSharpToJavaScript options")]
+		[DisplayName("CustomCSNamesToJS")]
+		[Description("List of custom names to convert. Example: Console-console,WriteLine-log")]
+		[DefaultValue("")]
+		public string CustomCSNamesToJS { get; set; } = string.Empty;
 	}
 }
